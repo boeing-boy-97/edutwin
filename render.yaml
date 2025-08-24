@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: edutwin-backend
-    env: node
-    plan: free
-    buildCommand: 'npm install'
-    startCommand: 'npm start'
-    rootDir: backend
